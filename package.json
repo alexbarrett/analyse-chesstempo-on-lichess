@@ -4,5 +4,16 @@
   "description": "Browser extension for opening a ChessTempo puzzle on the Lichess analysis board.",
   "homepage": "http://github.com/alexbarrett/analyse-chesstempo-on-lichess",
   "repository": "github:alexbarrett/analyse-chesstempo-on-lichess",
-  "author": "Alex Barrett <dev@alexbarrett.com>"
+  "author": "Alex Barrett <dev@alexbarrett.com>",
+  "scripts": {
+    "build": "web-ext build",
+    "sign": "node scripts/sign.js",
+    "test": "web-ext run --start-url https://beta.chesstempo.com/chess-problems/15"
+  },
+  "webExt": {
+    "sourceDir": "src"
+  },
+  "devDependencies": {
+    "web-ext": "^2.9.3"
+  }
 }
