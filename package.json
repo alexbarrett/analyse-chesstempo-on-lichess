@@ -1,0 +1,8 @@
+{
+  "name": "analyse-chesstempo-on-lichess",
+  "version": "1.0.0",
+  "description": "Browser extension for opening a ChessTempo puzzle on the Lichess analysis board.",
+  "homepage": "http://github.com/alexbarrett/analyse-chesstempo-on-lichess",
+  "repository": "github:alexbarrett/analyse-chesstempo-on-lichess",
+  "author": "Alex Barrett <dev@alexbarrett.com>"
+}
