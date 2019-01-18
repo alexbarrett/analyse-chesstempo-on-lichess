@@ -1,0 +1,23 @@
+{
+  "name": "Analyse ChessTempo Puzzles on Lichess",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Open a ChessTempo puzzle on the Lichess analysis board.",
+  "homepage_url": "http://github.com/alexbarrett/analyse-chesstempo-on-lichess",
+  "developer": {
+    "name": "Alex Barrett",
+    "url": "http://github.com/alexbarrett"
+  },
+  "icons": {
+    "32": "images/lichess-white-32.png",
+    "256": "images/lichess-white-256.png"
+  },
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "css": ["style.css"],
+      "matches": ["*://beta.chesstempo.com/*"]
+    }
+  ],
+  "web_accessible_resources": ["analyse-chesstempo-on-lichess.js"]
+}
