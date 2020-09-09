@@ -7,13 +7,13 @@
   "author": "Alex Barrett <dev@alexbarrett.com>",
   "scripts": {
     "build": "web-ext build",
-    "sign": "node scripts/sign.js",
-    "test": "web-ext run --start-url https://beta.chesstempo.com/chess-problems/15"
+    "sign": "web-ext sign",
+    "test": "web-ext run --start-url https://chesstempo.com/chess-problems/15"
   },
   "webExt": {
     "sourceDir": "src"
   },
   "devDependencies": {
-    "web-ext": "^2.9.3"
+    "web-ext": "^5.0.0"
   }
 }
